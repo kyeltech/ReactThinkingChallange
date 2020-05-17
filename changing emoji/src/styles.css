@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App * {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.character {
+  font-size: 80px;
+}

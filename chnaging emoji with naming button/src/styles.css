@@ -1,0 +1,9 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.character{
+  position: relative;
+  font-size: 100px;
+  height: 30%;  
+}

@@ -1,0 +1,82 @@
+.App {
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+.App * {
+  font-size: 20px;
+  box-sizing: border-box;
+}
+
+.chat-window {
+  margin: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.suggestions {
+  margin: 16px;
+}
+
+.header {
+  background: linear-gradient(45deg, #364de9, #182eb0);
+  color: rgba(255, 255, 255, 0.9);
+  padding: 16px;
+}
+
+.header .title {
+  font-size: 25px;
+  margin: 0;
+}
+
+.header .subtitle {
+  font-size: 16px;
+  color: rgb(188, 187, 245);
+}
+
+.history {
+  border-bottom: solid 1px #ddd;
+  height: 300px;
+  width: 400px;
+  padding: 36px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+  background: #fefefe;
+  overflow: scroll;
+}
+
+.message {
+  background: #d9dcf3;
+  color: #000;
+  min-width: 200px;
+  border-radius: 8px 8px 0 8px;
+  padding: 16px;
+  margin: 8px 0 0 0;
+}
+
+.input-container {
+  display: flex;
+  padding: 8px;
+}
+
+.input-container button {
+  border-radius: 5px;
+  padding: 4px 16px 4px 16px;
+}
+
+.input-container input {
+  border-width: 0;
+  flex: 1;
+}
+
+.input-container input:focus {
+  outline: none;
+}
